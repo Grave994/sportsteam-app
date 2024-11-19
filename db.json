@@ -1,9 +1,358 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "teams": [
+        {
+            "id": 3,
+            "name": "Los Angeles Angels",
+            "city": "Los Angeles",
+            "sport": "Baseball",
+            "founded": "1961",
+            "stadium": "Angel Stadium",
+            "coach": "Phil Nevin",
+            "players": [
+                4
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Milwaukee Bucks",
+            "city": "Milwaukee",
+            "sport": "Basketball",
+            "founded": "1968",
+            "stadium": "Fiserv Forum",
+            "coach": "Mike Budenholzer",
+            "players": [
+                6
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Paris Saint-Germain",
+            "city": "Paris",
+            "sport": "Football",
+            "founded": "1970",
+            "stadium": "Parc des Princes",
+            "coach": "Luis Enrique",
+            "players": [
+                5
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Houston Rockets",
+            "city": "Houston",
+            "sport": "Basketball",
+            "founded": "1967",
+            "stadium": "Toyota Center",
+            "coach": "Ime Udoka",
+            "players": [
+                9
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Brooklyn Nets",
+            "city": "Brooklyn",
+            "sport": "Basketball",
+            "founded": "1967",
+            "stadium": "Barclays Center",
+            "coach": "Jacque Vaughn",
+            "players": [
+                10
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Real Madrid",
+            "sportType": "Football",
+            "foundedYear": 1902,
+            "stadium": "Santiago Bernabéu",
+            "achievements": "14 UEFA Champions League titles",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png"
+        },
+        {
+            "id": 2,
+            "name": "Golden State Warriors",
+            "sportType": "Basketball",
+            "foundedYear": 1946,
+            "stadium": "Chase Center",
+            "achievements": "7 NBA Championships",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/1200px-Golden_State_Warriors_logo.svg.png"
+        },
+        {
+            "id": 3,
+            "name": "Los Angeles Dodgers",
+            "sportType": "Baseball",
+            "foundedYear": 1883,
+            "stadium": "Dodger Stadium",
+            "achievements": "6 World Series titles",
+            "logo": "https://www.shutterstock.com/image-vector/los-angeles-dodgers-hat-over-600nw-2269403503.jpg"
+        },
+        {
+            "id": 4,
+            "name": "New York Yankees",
+            "sportType": "Baseball",
+            "foundedYear": 1901,
+            "stadium": "Yankee Stadium",
+            "achievements": "27 World Series titles",
+            "logo": "https://seeklogo.com/images/N/new-york-yankees-logo-EAA3450B04-seeklogo.com.png"
+        },
+        {
+            "id": 5,
+            "name": "Manchester United",
+            "sportType": "Football",
+            "foundedYear": 1878,
+            "stadium": "Old Trafford",
+            "achievements": "20 English Premier League titles",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/1200px-Manchester_United_FC_crest.svg.png"
+        },
+        {
+            "id": 6,
+            "name": "Chicago Bulls",
+            "sportType": "Basketball",
+            "foundedYear": 1966,
+            "stadium": "United Center",
+            "achievements": "6 NBA Championships",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Chicago_Bulls_logo.svg/1200px-Chicago_Bulls_logo.svg.png"
+        },
+        {
+            "id": 7,
+            "name": "FC Barcelona",
+            "sportType": "Football",
+            "foundedYear": 1899,
+            "stadium": "Camp Nou",
+            "achievements": "5 UEFA Champions League titles",
+            "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/a/a1/Logo_FC_Barcelona.svg/2023px-Logo_FC_Barcelona.svg.png"
+        },
+        {
+            "id": 8,
+            "name": "Boston Celtics",
+            "sportType": "Basketball",
+            "foundedYear": 1946,
+            "stadium": "TD Garden",
+            "achievements": "17 NBA Championships",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Boston_Celtics.svg/640px-Boston_Celtics.svg.png"
+        },
+        {
+            "id": 9,
+            "name": "Miami Heat",
+            "sportType": "Basketball",
+            "foundedYear": 1988,
+            "stadium": "Kaseya Center",
+            "achievements": "3 NBA Championships",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Miami_Heat_logo.svg/1200px-Miami_Heat_logo.svg.png"
+        },
+        {
+            "id": 10,
+            "name": "Liverpool FC",
+            "sportType": "Football",
+            "foundedYear": 1892,
+            "stadium": "Anfield",
+            "achievements": "6 UEFA Champions League titles",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/640px-Liverpool_FC.svg.png"
+        },
+        {
+            "id": 11,
+            "name": "Dallas Cowboys",
+            "sportType": "American Football",
+            "foundedYear": 1960,
+            "stadium": "AT&T Stadium",
+            "achievements": "5 Super Bowl championships",
+            "logo": "https://www.logodesign.org/wp-content/uploads/2023/11/0015246_nfl-dallas-cowboys-roundel-mat-27-diameter_580__25909.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Los Angeles Lakers",
+            "sportType": "Basketball",
+            "foundedYear": 1947,
+            "stadium": "Crypto.com Arena",
+            "achievements": "17 NBA Championships",
+            "logo": "https://seeklogo.com/images/L/los-angeles-lakers-logo-805BBEB14F-seeklogo.com.png"
+        },
+        {
+            "id": 13,
+            "name": "Green Bay Packers",
+            "sportType": "American Football",
+            "foundedYear": 1919,
+            "stadium": "Lambeau Field",
+            "achievements": "4 Super Bowl championships",
+            "logo": "https://i5.walmartimages.com/seo/NFL-Green-Bay-Packers-Logo-21-Wall-Poster-14-725-x-22-375-Framed_2c499b6f-8bf8-499e-9b2b-16cb68fb922c.ad9227f1fff6859cc504a0e6845180f4.jpeg"
+        },
+        {
+            "id": 14,
+            "name": "San Francisco Giants",
+            "sportType": "Baseball",
+            "foundedYear": 1883,
+            "stadium": "Oracle Park",
+            "achievements": "3 World Series titles",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/San_Francisco_Giants_Cap_Insignia.svg/1200px-San_Francisco_Giants_Cap_Insignia.svg.png"
+        },
+        {
+            "id": 15,
+            "name": "Toronto Raptors",
+            "sportType": "Basketball",
+            "foundedYear": 1995,
+            "stadium": "Scotiabank Arena",
+            "achievements": "1 NBA Championship",
+            "logo": "https://thumbs.dreamstime.com/z/toronto-raptors-new-logo-white-background-editorial-illustration-195936276.jpg"
+        },
+        {
+            "id": 17,
+            "name": "New England Patriots",
+            "sportType": "American Football",
+            "foundedYear": 1960,
+            "stadium": "Gillette Stadium",
+            "achievements": "6 Super Bowl titles",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/New_England_Patriots_logo.svg"
+        },
+        {
+            "id": 18,
+            "name": "Chicago Cubs",
+            "sportType": "Baseball",
+            "foundedYear": 1876,
+            "stadium": "Wrigley Field",
+            "achievements": "3 World Series titles",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Chicago_Cubs_logo.svg/1200px-Chicago_Cubs_logo.svg.png"
+        },
+        {
+            "id": 19,
+            "name": "Manchester City",
+            "sportType": "Football",
+            "foundedYear": 1880,
+            "stadium": "Etihad Stadium",
+            "achievements": "9 Premier League titles",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png"
+        },
+        {
+            "id": 20,
+            "name": "Atlanta Hawks",
+            "sportType": "Basketball",
+            "foundedYear": 1946,
+            "stadium": "State Farm Arena",
+            "achievements": "1 NBA Championship",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Atlanta_Hawks_logo.svg"
+        }
+    ],
+    "players": [
+        {
+            "id": 1,
+            "name": "Lionel Messi",
+            "teamId": 1,
+            "position": "Forward",
+            "nationality": "Argentina",
+            "birthDate": "1987-06-24",
+            "height": "1.70 m",
+            "weight": "72 kg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Lionel_Messi_2018.jpg"
+        },
+        {
+            "id": 3,
+            "name": "LeBron James",
+            "teamId": 2,
+            "position": "Small Forward",
+            "nationality": "USA",
+            "birthDate": "1984-12-30",
+            "height": "2.06 m",
+            "weight": "113 kg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/LeBron_James_2014.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Kylian Mbappé",
+            "teamId": 4,
+            "position": "Forward",
+            "nationality": "France",
+            "birthDate": "1998-12-20",
+            "height": "1.78 m",
+            "weight": "73 kg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Kylian_Mbapp%C3%A9_2018.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Giannis Antetokounmpo",
+            "teamId": 6,
+            "position": "Power Forward",
+            "nationality": "Greece",
+            "birthDate": "1994-12-06",
+            "height": "2.11 m",
+            "weight": "110 kg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Giannis_Antetokounmpo_2021.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Cristiano Ronaldo",
+            "teamId": 5,
+            "position": "Forward",
+            "nationality": "Portugal",
+            "birthDate": "1985-02-05",
+            "height": "1.87 m",
+            "weight": "84 kg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Cristiano_Ronaldo_2018.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Clay Thompson",
+            "teamId": 2,
+            "position": "Shooting Guard",
+            "nationality": "USA",
+            "birthDate": "1990-02-08",
+            "height": "1.98 m",
+            "weight": "98 kg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Klay_Thompson_2019.jpg"
+        },
+        {
+            "id": 9,
+            "name": "James Harden",
+            "teamId": 8,
+            "position": "Shooting Guard",
+            "nationality": "USA",
+            "birthDate": "1989-08-26",
+            "height": "1.96 m",
+            "weight": "100 kg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/James_Harden_2022.jpg"
+        },
+        {
+            "id": 10,
+            "name": "David Ortiz",
+            "teamId": 9,
+            "position": "Designated Hitter",
+            "nationality": "Dominican Republic",
+            "birthDate": "1975-11-18",
+            "height": "1.93 m",
+            "weight": "136 kg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/David_Ortiz_2013.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Curry",
+            "teamId": 10,
+            "position": "Forward",
+            "nationality": "USA",
+            "birthDate": "1988-03-14",
+            "height": "1.91 m",
+            "weight": "100 kg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/curry.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Stephen Curry",
+            "teamId": 2,
+            "position": "Point Guard",
+            "nationality": "USA",
+            "birthDate": "1988-03-14",
+            "height": "1.91 m",
+            "weight": "86 kg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Stephen_Curry_2019.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Mike Trout",
+            "teamId": 3,
+            "position": "Center Fielder",
+            "nationality": "USA",
+            "birthDate": "1991-08-07",
+            "height": "1.91 m",
+            "weight": "107 kg",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Mike_Trout_2022.jpg"
+        }
+    ]
 }
